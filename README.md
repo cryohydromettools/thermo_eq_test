@@ -10,11 +10,9 @@ The workflow automates the **download**, **processing**, and **calculation** of 
 The governing thermodynamic equation is expressed as:
 
 $$
-\frac{dT}{dt} =
-- \left( u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y} \right)
-+ \left( \frac{R T}{c_p P} - \frac{\partial T}{\partial p} \right)\omega
-+ \frac{J}{c_p}
+\frac{dT}{dt} = - \left(u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y}\right) + \left(\frac{R T}{c_p P} - \frac{\partial T}{\partial p}\right) \omega + \frac{J}{c_p}
 $$
+
 
 ---
 
@@ -36,15 +34,19 @@ $$
 ## ⚙️ Equation Components
 
 ### 🔸 Horizontal Advection Term
+
 $$
-- \left( u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y} \right)
+- \left(u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y}\right)
 $$
+
 Represents temperature change due to **horizontal transport** by the wind field.
 
 ### 🔸 Adiabatic Term
+
 $$
-\left( \frac{R T}{c_p P} - \frac{\partial T}{\partial p} \right)\omega
+\left(\frac{R T}{c_p P} - \frac{\partial T}{\partial p}\right) \omega
 $$
+
 Describes **temperature change due to vertical motion**, reflecting adiabatic compression or expansion.
 
 ### 🔸 Diabatic Term
