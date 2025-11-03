@@ -36,7 +36,7 @@ $$
 ### 🔸 Horizontal Advection Term
 
 $$
-- \left(u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y}\right)
+- \Big(u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y}\Big)
 $$
 
 Represents temperature change due to **horizontal transport** by the wind field.
@@ -52,7 +52,7 @@ Describes **temperature change due to vertical motion**, reflecting adiabatic co
 ### 🔸 Diabatic Term
 
 $$
-\frac{J}{c_p} = SW_{flux} + LW_{flux} + LHF + \frac{\partial F_H}{\partial z}
+\frac{J}{c_p} = SW_{flux} + LW_{flux} + LHF + \frac{1}{\rho c_p} \frac{\partial F_H}{\partial z}
 $$
 
 Represents the **heating or cooling** produced by **radiative** and other **non-adiabatic processes**, including **turbulent sensible and latent heat fluxes**.
