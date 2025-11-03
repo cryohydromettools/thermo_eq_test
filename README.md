@@ -36,6 +36,10 @@ $$
 ### 🔸 Horizontal Advection Term
 
 $$
+\left(u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y}\right)
+$$
+
+$$
 - \Big(u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y}\Big)
 $$
 
