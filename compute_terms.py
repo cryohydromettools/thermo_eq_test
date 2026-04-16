@@ -67,7 +67,7 @@ def compute_advection_term_ncl(
     if "t_adv" not in ds_out:
         raise ValueError(f"Variable 't_adv' not found in {file_adv_out}")
 
-    adv_term = ds_out["t_adv"] * 3600 * -1  # Convert from K/s to K/h and reverse sign
+    adv_term = -(ds_out["t_adv"] * 3600)  # Convert from K/s to K/h and reverse sign
     adv_term.name = f"advection_term_{int(pressure_level)}hPa"
     adv_term.attrs["long_name"] = f"Advection_term_975hPa"
     adv_term.attrs["units"] = "K/h"

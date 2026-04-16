@@ -39,10 +39,6 @@ $$
 \left(u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y}\right)
 $$
 
-$$
-- \Big(u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y}\Big)
-$$
-
 Represents temperature change due to **horizontal transport** by the wind field.
 
 ### 🔸 Adiabatic Term
