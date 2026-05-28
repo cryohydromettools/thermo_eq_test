@@ -15,6 +15,7 @@ $$
 \underbrace{\frac{\Delta T}{\Delta t}}_{\mathrm{Tend}}
 =
 \underbrace{-\vec{V}\cdot\nabla_p T}_{\mathrm{Adv}}
++
 \underbrace{-\omega \frac{T}{\theta}\frac{\partial \theta}{\partial p}}_{\mathrm{Adiab}}
 +
 \underbrace{Q_{\mathrm{diab}}}_{\mathrm{Diab}}
