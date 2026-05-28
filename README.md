@@ -7,7 +7,7 @@ The methodology follows approaches similar to those proposed by González-Herrer
 
 ---
 
-## 🧮 Thermodynamic Equation
+## Thermodynamic Equation
 
 The thermodynamic energy equation in pressure coordinates is expressed as:
 
@@ -20,7 +20,6 @@ $$
 +
 \underbrace{Q_{\mathrm{diab}}}_{\mathrm{Diab}}
 $$
-
 where:
 
 - **Tend** → local temperature tendency  
